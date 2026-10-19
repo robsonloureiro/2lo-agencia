@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="2LO — agência criativa especializada em design para redes sociais, campanhas e identidade visual.">
-<title>2LO — Ideias que não passam despercebidas</title>
+<title>2LO® — Creative agency for brands with attitude</title>
 <style>
 :root{--red:#ff3b30;--ink:#101010;--paper:#f4f1eb;--muted:#aaa79f;--line:rgba(16,16,16,.17)}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}
@@ -18,6 +18,27 @@ section{padding:92px 0}.section-head{display:flex;justify-content:space-between;
 .contact{background:var(--red);padding:85px 0}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px}.contact h2{font-size:clamp(50px,8vw,100px);line-height:.82;letter-spacing:-.09em;margin:20px 0}.contact p{max-width:350px;line-height:1.55}.form{display:grid;gap:12px}.form input,.form select,.form textarea{width:100%;padding:15px;border:1px solid #15151555;background:#ffffffeb;color:#111;outline:none}.form textarea{min-height:100px;resize:vertical}.form .btn{background:#111}.form-note{font-size:11px;line-height:1.4}
 footer{background:var(--ink);color:var(--paper);padding:30px 0}.footer-row{display:flex;align-items:center;justify-content:space-between;gap:20px}.footer-row p{font-size:11px;color:#aaa}.footer-links{display:flex;gap:18px;font-size:12px}
 @media(max-width:760px){.wrap{width:min(100% - 30px,1240px)}.topbar{padding:18px 0}.logo{font-size:30px}nav{display:none}.menu{display:block;background:none;border:0;font-size:12px;font-weight:800}.hero{padding:60px 0 45px;grid-template-columns:1fr;gap:30px}.hero-art{min-height:290px}.hero-copy{font-size:16px}.section-head{display:block}.section-head p{margin-top:20px}.services{grid-template-columns:1fr}.service,.service+.service{padding:22px 0;border-left:0;min-height:0}.service h3{margin:18px 0 8px}.work-grid{grid-template-columns:1fr}.case-art{aspect-ratio:1.05}.steps{grid-template-columns:1fr 1fr;row-gap:25px}.step,.step+.step{padding:18px 12px 0 0;border-left:0}.step:nth-child(even){padding-left:12px;border-left:1px solid #ffffff33}.contact-grid{grid-template-columns:1fr;gap:25px}.footer-row{align-items:flex-start;flex-direction:column}.footer-links{flex-wrap:wrap}section{padding:65px 0}}
+
+/* 2LO REDESIGN — direção jovem/editorial */
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+:root{--red:#ff3b30;--ink:#111111;--paper:#f4f1eb;--muted:#aaa79f;--line:rgba(17,17,17,.2)}
+body{font-family:'Space Grotesk',Arial,sans-serif;overflow-x:hidden}
+.logo{font-family:'Space Grotesk',Arial,sans-serif;font-size:36px;letter-spacing:-3px}
+.topbar{border-bottom:1px solid var(--line)}nav,.eyebrow,.num,.label,.case-art small,.case-meta,.step strong,.form-note,.footer-row p,.footer-links{font-family:'DM Mono',monospace}
+.hero{padding-top:66px;padding-bottom:56px;gap:26px;align-items:center}
+.hero h1{font-size:clamp(72px,11.7vw,164px);line-height:.78;letter-spacing:-.105em;font-family:'Space Grotesk',Arial,sans-serif}
+.hero h1 em{color:var(--red)}
+.hero-art{min-height:410px;background:var(--red)}.art-type{font-family:'Space Grotesk',Arial,sans-serif;font-size:clamp(58px,8vw,112px);letter-spacing:-.11em}
+.ticker{font-family:'DM Mono',monospace;padding:16px 0}.ticker-group span{font-size:17px}
+.section-head h2{font-family:'Space Grotesk',Arial,sans-serif;font-weight:700;letter-spacing:-.09em;line-height:.82}
+.service h3{font-family:'Space Grotesk',Arial,sans-serif;letter-spacing:-1.4px}
+.work-grid{gap:26px 18px}.case-art{transition:filter .25s}.case:hover .case-art{filter:saturate(1.08)}.case-art h3{font-family:'Space Grotesk',Arial,sans-serif;letter-spacing:-.105em}
+.process{background:#dedbd4;color:var(--ink)}.process .section-head p,.step p{color:#555}.steps{border-color:var(--line)}.step+.step{border-color:var(--line)}.step strong{color:var(--red)}
+.btn{font-family:'DM Mono',monospace;letter-spacing:.3px}.btn:hover{background:var(--red)}
+.contact{background:var(--red)}.contact h2{letter-spacing:-.105em}.form input,.form select,.form textarea{border-radius:0}
+@media(max-width:760px){.hero{padding-top:45px}.hero h1{font-size:clamp(59px,13.8vw,105px);line-height:.8}.hero-art{min-height:270px}.section-head h2{letter-spacing:-.085em}.case-art h3{letter-spacing:-.1em}}
+@media(prefers-reduced-motion:reduce){.ticker-track{animation:none!important;scroll-behavior:auto}}
+
 </style>
 </head>
 <body>
@@ -28,10 +49,10 @@ footer{background:var(--ink);color:var(--paper);padding:30px 0}.footer-row{displ
 </header>
 <main>
 <section class="wrap hero" id="inicio">
-  <div><div class="eyebrow">Agência criativa independente · Design & social</div><h1>IDEIAS QUE<br>NÃO PASSAM<br><em>DESPERCEBIDAS.</em></h1><p class="hero-copy">Criamos conteúdo visual para marcas que querem sair do automático e conquistar espaço nas redes sociais.</p><a class="btn" href="#contato">Vamos dar vida à sua marca <span>↗</span></a></div>
-  <div class="hero-art" aria-label="Arte gráfica abstrata da 2LO"><div class="orbit"></div><div class="art-type">MAKE<br>NOISE<span style="color:#101010">.</span></div><div class="art-tag">ESTRATÉGIA + DESIGN + ATITUDE</div></div>
+  <div><div class="eyebrow">Agência criativa independente · Design & social</div><h1>IDEIAS<br>FORA DO<br><em>ÓBVIO. ✳</em></h1><p class="hero-copy">Design com personalidade para marcas que não nasceram para passar despercebidas.</p><a class="btn" href="#contato">Vamos dar vida à sua marca <span>↗</span></a></div>
+  <div class="hero-art" aria-label="Arte gráfica abstrata da 2LO"><div class="orbit"></div><div class="art-type">MAKE<br>IT LOUD<span style="color:#101010">.</span></div><div class="art-tag">ESTRATÉGIA + DESIGN + ATITUDE</div></div>
 </section>
-<div class="ticker" aria-label="Design com intenção, conteúdo que se destaca, marcas com personalidade"><div class="ticker-track"><div class="ticker-group">DESIGN COM INTENÇÃO <span>✳</span> CONTEÚDO QUE SE DESTACA <span>✳</span> MARCAS COM PERSONALIDADE <span>✳</span></div><div class="ticker-group" aria-hidden="true">DESIGN COM INTENÇÃO <span>✳</span> CONTEÚDO QUE SE DESTACA <span>✳</span> MARCAS COM PERSONALIDADE <span>✳</span></div></div></div>
+<div class="ticker" aria-label="Design com intenção, conteúdo que se destaca, marcas com personalidade"><div class="ticker-track"><div class="ticker-group">BRANDING <span>✳</span> SOCIAL MEDIA <span>✳</span> DIREÇÃO DE ARTE <span>✳</span> CAMPANHAS <span>✳</span> DESIGN DIGITAL <span>✳</span></div><div class="ticker-group" aria-hidden="true">BRANDING <span>✳</span> SOCIAL MEDIA <span>✳</span> DIREÇÃO DE ARTE <span>✳</span> CAMPANHAS <span>✳</span> DESIGN DIGITAL <span>✳</span></div></div></div>
 <section class="wrap" id="servicos">
   <div class="section-head"><div><div class="eyebrow">O que fazemos</div><h2>DESIGN QUE<br>TRABALHA.</h2></div><p>Da ideia à publicação, desenvolvemos uma linguagem visual consistente para sua marca aparecer com mais força, clareza e personalidade.</p></div>
   <div class="services">

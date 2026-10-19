@@ -1,17 +1,9 @@
-# Site da 2LO
+# 2LO Creative Agency — redesign
 
-Site estático responsivo em HTML/CSS/JavaScript, sem dependências externas.
+Site estático da 2LO com direção visual jovem/editorial, tipografia expressiva, vermelho, preto e off-white, faixa animada, serviços, portfólio conceitual e contato.
 
-## Prévia
-Abra `index.html` em um navegador.
+## Publicação
+Envie `index.html`, `README.md` e a pasta `images/` para o repositório conectado à Vercel. Preserve a estrutura da pasta de imagens.
 
-## Antes de publicar
-1. No final de `index.html`, localize `const phone=''`.
-2. Substitua pelas cifras do número comercial da agência, com código do país e DDD, sem `+`, espaços ou parênteses. Exemplo de formato: `55DDNUMERO`.
-3. Revise os serviços, textos, nome e cases conforme sua oferta real.
-4. Publique em hospedagem estática (por exemplo, Vercel).
-
-O portfólio atual usa projetos conceituais. O formulário não armazena dados; após configurar o telefone, ele abre o WhatsApp com a mensagem preenchida para revisão e envio.
-
-
-Atualização: incluído case conceitual Givenchy Beauty e faixa de textos animada. A imagem é um conceito de portfólio e não representa uma campanha oficial ou trabalho contratado pela Givenchy.
+## Importante
+Os cases apresentados são conceituais. O formulário de contato precisa receber o número comercial do WhatsApp no código antes de funcionar como envio real.
