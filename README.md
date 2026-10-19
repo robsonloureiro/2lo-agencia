@@ -12,3 +12,6 @@ Abra `index.html` em um navegador.
 4. Publique em hospedagem estática (por exemplo, Vercel).
 
 O portfólio atual usa projetos conceituais. O formulário não armazena dados; após configurar o telefone, ele abre o WhatsApp com a mensagem preenchida para revisão e envio.
+
+
+Atualização: incluído case conceitual Givenchy Beauty e faixa de textos animada. A imagem é um conceito de portfólio e não representa uma campanha oficial ou trabalho contratado pela Givenchy.
